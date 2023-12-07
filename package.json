@@ -1,0 +1,13 @@
+{
+  "name": "com.demigiant.dotween",
+  "displayName": "DoTween",
+  "version": "1.2.745",
+  "unity": "2018.4",
+  "description": "",
+  "keywords": [
+    "DoTween"
+  ],
+  "license": "MIT",
+  "category": "Tool",
+  "dependencies": {}
+}
