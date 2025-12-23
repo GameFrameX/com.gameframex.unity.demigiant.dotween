@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/gameframex/com.gameframex.unity.demigiant.dotween/compare/1.0.0...1.1.0) (2025-12-23)
+
+
+### Features
+
+* **ci:** change ci ([5292be9](https://github.com/gameframex/com.gameframex.unity.demigiant.dotween/commit/5292be94ca066f015befe8b19058343f6288d34d))
+
 # Changelog
 
 ## [1.0.0](https://github.com/GameFrameX/com.gameframex.unity.demigiant.dotween/tree/1.0.0) (2025-05-31)
