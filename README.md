@@ -1,53 +1,66 @@
-# Unity的DoTween 动画插件
+<div align="center">
+  <img src="https://download.alianblank.com/gameframex/gameframex_logo_320.png" alt="Game Frame X Logo" width="160" />
+</div>
 
-该库主要服务于 `https://github.com/AlianBlank/GameFrameX` 作为子库使用。
+# Game Frame X DOTween
 
-# 使用方式(三种方式)
+[![GitHub release](https://img.shields.io/github/v/release/GameFrameX/com.gameframex.unity.demigiant.dotween?style=flat-square)](https://github.com/GameFrameX/com.gameframex.unity.demigiant.dotween/releases)
+[![License](https://img.shields.io/github/license/GameFrameX/com.gameframex.unity.demigiant.dotween?style=flat-square)](https://github.com/GameFrameX/com.gameframex.unity.demigiant.dotween/blob/main/LICENSE.md)
+[![Documentation](https://img.shields.io/badge/Documentation-Online-blue?style=flat-square)](https://gameframex.doc.alianblank.com)
 
-1. 直接在 `manifest.json` 文件中添加以下内容
+**All-in-One Solution for Indie Game Development · Empowering Indie Developers' Dreams**
+
+[Documentation](https://gameframex.doc.alianblank.com) · [Quick Start](#quick-start) · [QQ Group](https://qm.qq.com/q/5s5e1e6e6e)
+
+**Language**: **English** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+
+---
+
+## Project Overview
+
+Game Frame X DOTween is a [DOTween](http://dotween.demigiant.com) integration package for the GameFrameX framework. DOTween is a Unity animation plugin for creating tween animations.
+
+This library primarily serves as a submodule for [GameFrameX](https://github.com/AlianBlank/GameFrameX).
+
+## Changes from Upstream
+
+1. Added `link.xml` stripping filter
+
+## Quick Start
+
+### System Requirements
+
+- Unity 2018.4 or higher
+
+### Installation
+
+Choose one of the following methods:
+
+1. Add the following to your project's `manifest.json` file:
    ```json
-      {"com.gameframex.unity.demigiant.dotween": "https://github.com/AlianBlank/com.gameframex.unity.demigiant.dotween.git"}
-    ```
-2. 在Unity 的`Packages Manager` 中使用`Git URL` 的方式添加库,地址为：https://github.com/AlianBlank/com.gameframex.unity.demigiant.dotween.git
+   {"com.gameframex.unity.demigiant.dotween": "https://github.com/AlianBlank/com.gameframex.unity.demigiant.dotween.git"}
+   ```
 
-3. 直接下载仓库放置到Unity 项目的`Packages` 目录下。会自动加载识别
+2. Use `Git URL` in Unity's Package Manager:
+   ```
+   https://github.com/AlianBlank/com.gameframex.unity.demigiant.dotween.git
+   ```
 
-# 改动功能
+3. Download the repository and place it in your Unity project's `Packages` directory. It will be loaded automatically.
 
-1. 增加 `link.xml` 的裁剪过滤
+## Usage
 
-# 文档
+- After importing, select DOTween's Utility Panel from the "Tools/Demigiant" menu and press "Setup DOTween..." to activate/deactivate Modules.
+- In your code, add `using DG.Tweening` to each class where you want to use DOTween.
 
-http://dotween.demigiant.com/documentation.php
+## Documentation & Resources
 
-# 以下为原内容
+- DOTween Documentation: http://dotween.demigiant.com/documentation.php
+- DOTween License: http://dotween.demigiant.com/license.php
+- GameFrameX Documentation: https://gameframex.doc.alianblank.com
+- Repository: https://github.com/GameFrameX/com.gameframex.unity.demigiant.dotween
+- Issues: https://github.com/GameFrameX/com.gameframex.unity.demigiant.dotween/issues
 
-DOTween and DOTween Pro are copyright (c) 2014-2018 Daniele Giardini - Demigiant
+## License
 
-// IMPORTANT!!! /////////////////////////////////////////////
-// Upgrading DOTween from versions older than 1.2.000 ///////
-// (or DOTween Pro older than 1.0.000) //////////////////////
--------------------------------------------------------------
-If you're upgrading your project from a version of DOTween older than 1.2.000 (or DOTween Pro older than 1.0.000) please follow these instructions carefully.
-
-1) Import the new version in the same folder as the previous one, overwriting old files. A lot of errors will appear but don't worry
-2) Close and reopen Unity (and your project). This is fundamental: skipping this step will cause a bloodbath
-3) Open DOTween's Utility Panel (Tools > Demigiant > DOTween Utility Panel) if it doesn't open automatically, then press "Setup DOTween...": this will run the upgrade setup
-4) From the Add/Remove Modules panel that opens, activate/deactivate Modules for Unity systems and for external assets (Pro version only)
-
-// GET STARTED //////////////////////////////////////////////
-
-- After importing a new DOTween update, select DOTween's Utility Panel from the "Tools/Demigiant" menu (if it doesn't open automatically) and press the "Setup DOTween..." button to activate/deactivate Modules. You can also access a Preferences Tab from there to choose default settings for DOTween.
-- In your code, add "using DG.Tweening" to each class where you want to use DOTween.
-- You're ready to tween. Check out the links below for full documentation and license info.
-
-// LINKS ///////////////////////////////////////////////////////
-
-DOTween website (documentation, examples, etc): http://dotween.demigiant.com
-DOTween license: http://dotween.demigiant.com/license.php
-DOTween repository (Google Code): https://code.google.com/p/dotween/
-Demigiant website (documentation, examples, etc): http://www.demigiant.com
-
-// NOTES //////////////////////////////////////////////////////
-
-- DOTween's Utility Panel can be found under "Tools > Demigiant > DOTween Utility Panel" and also contains other useful options, plus a tab to set DOTween's preferences
+DOTween and DOTween Pro are copyright (c) 2014-2018 Daniele Giardini - Demigiant. See [LICENSE](LICENSE.md) for details.
