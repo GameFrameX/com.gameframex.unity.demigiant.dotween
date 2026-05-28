@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gameframex/com.gameframex.unity.demigiant.dotween/compare/1.1.0...1.1.1) (2026-05-28)
+
+
+### Bug Fixes
+
+* **ci:** 统一 .github 工作流配置 ([bb36c89](https://github.com/gameframex/com.gameframex.unity.demigiant.dotween/commit/bb36c89a07d48ab8ce69bb48833d8b1d73e1e90d))
+
 # [1.1.0](https://github.com/gameframex/com.gameframex.unity.demigiant.dotween/compare/1.0.0...1.1.0) (2025-12-23)
 
 
